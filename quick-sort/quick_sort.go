@@ -34,4 +34,28 @@ func quickSort(a *[]int, startIndex, endIndex int) {
 	quickSort(a, pivotIndex+1, endIndex)
 }
 
+func partitionSingleSide(a *[]int, startIndex, endIndex int) int {
+	array := *a
+	mark := startIndex
+	pivot := array[startIndex]
+	for i := startIndex + 1; i <= endIndex; i++ {
+		if array[i] < pivot {
+			mark++
+			array[mark], array[i] = array[i], array[mark]
+		}
+	}
+
+	array[mark], array[startIndex] = array[startIndex], array[mark]
+	return mark
+}
+
 //1. 单边循环法。
+func quickSortSingleSide(a *[]int, startIndex, endIndex int) {
+	//递归结束条件 一般s==e
+	if startIndex >= endIndex {
+		return
+	}
+	pivotIndex := partitionSingleSide(a, startIndex, endIndex)
+	quickSortSingleSide(a, startIndex, pivotIndex-1)
+	quickSortSingleSide(a, pivotIndex+1, endIndex)
+}
