@@ -1,0 +1,30 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2020_4_20_22_39__Default_Changelist_.xml
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Update_at_2020_4_20_22_39__Default_Changelist_.xml	(revision 85cbac09cb470de7f5a7787feb224714e0663de9)
++++ .idea/shelf/Uncommitted_changes_before_Update_at_2020_4_20_22_39__Default_Changelist_.xml	(revision 85cbac09cb470de7f5a7787feb224714e0663de9)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_2020_4_20_22_39_[Default_Changelist]" date="1587393577201" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_4_20_22_39_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2020/4/20 22:39 [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_2020_4_20_22_39_[Default_Changelist]/shelved.patch
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_Update_at_2020_4_20_22_39_[Default_Changelist]/shelved.patch	(revision 85cbac09cb470de7f5a7787feb224714e0663de9)
++++ .idea/shelf/Uncommitted_changes_before_Update_at_2020_4_20_22_39_[Default_Changelist]/shelved.patch	(revision 85cbac09cb470de7f5a7787feb224714e0663de9)
+@@ -1,15 +0,0 @@
+-Index: .idea/vcs.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+---- .idea/vcs.xml	(date 1587189993447)
+-+++ .idea/vcs.xml	(date 1587189993447)
+-@@ -0,0 +1,6 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="VcsDirectoryMappings">
+-+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
