@@ -21,11 +21,11 @@ func bucketSort(array []float64) []float64 {
 		}
 	}
 	//初始化桶
-	//area := int(max-min)/(bucketNum-1)
+	area := (max - min) / float64(bucketNum-1)
 
 	buckets := make([][]float64, bucketNum) //创建对应数组个数的桶
 	for i := 0; i < bucketNum; i++ {
-		index := int((array[i]-min)*float64(bucketNum-1)/max - min)
+		index := int((array[i] - min) / area)
 		buckets[index] = append(buckets[index], array[i])
 	}
 	//对每个桶内部进行排序
